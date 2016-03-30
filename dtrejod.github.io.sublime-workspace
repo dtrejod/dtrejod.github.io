@@ -1,0 +1,743 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sync",
+				"syncDNS"
+			],
+			[
+				"requestDNS",
+				"requestDNSMessage"
+			],
+			[
+				"toi",
+				"toiServerPORT"
+			],
+			[
+				"toiSe",
+				"toiServerIP"
+			],
+			[
+				"log",
+				"logger"
+			],
+			[
+				"Rec",
+				"received"
+			],
+			[
+				"client",
+				"clientName"
+			],
+			[
+				"yes",
+				"yesNoReponse"
+			],
+			[
+				"text",
+				"textMessage"
+			],
+			[
+				"mytoi",
+				"myToiChatServer"
+			],
+			[
+				"dns",
+				"DnsMessage"
+			],
+			[
+				"message",
+				"messageType"
+			],
+			[
+				"null",
+				"nullOut"
+			],
+			[
+				"is",
+				"is_alive"
+			],
+			[
+				"Toi",
+				"toiChatPing"
+			],
+			[
+				"star",
+				"startServer"
+			],
+			[
+				"st",
+				"statusServer"
+			],
+			[
+				"ping",
+				"pingResult"
+			],
+			[
+				"register",
+				"registerDNS"
+			],
+			[
+				"clien",
+				"clientName"
+			],
+			[
+				"print",
+				"printQueue"
+			],
+			[
+				"toiChat",
+				"toiChatServer"
+			],
+			[
+				"get",
+				"getpeername"
+			],
+			[
+				"Succes",
+				"successfully"
+			],
+			[
+				"U",
+				"UNKOWN"
+			],
+			[
+				"msg",
+				"msgType"
+			],
+			[
+				"send",
+				"__sendToiMessage__"
+			],
+			[
+				"stop",
+				"stopServer"
+			],
+			[
+				"TCP",
+				"TCP_IP"
+			],
+			[
+				"valid",
+				"valid_IPs"
+			],
+			[
+				"list",
+				"list_IPS"
+			],
+			[
+				"rou",
+				"router_request_arpinfo"
+			],
+			[
+				"router",
+				"router_request_arpinf"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 407.0,
+		"last_filter": "toggle",
+		"selected_items":
+		[
+			[
+				"toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"show",
+				"SFTP: Show Panel"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"latex",
+				"Build With: LaTeX"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"File: Rename"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new folder",
+				"File: New Folder Relative to Current View"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"bar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"brow",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"browse",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"branch",
+				"Git: Checkout New Branch"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"git quick",
+				"Git: Quick Add"
+			],
+			[
+				"git add ",
+				"Git: Quick Add"
+			],
+			[
+				"sftp sync",
+				"SFTP: Sync Both Directions…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sftp sy",
+				"SFTP: Sync Local -> Remote…"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git vers",
+				"Git: Version"
+			],
+			[
+				"git version",
+				"Git: Version"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io",
+		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/_posts"
+	],
+	"file_history":
+	[
+		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/404.html",
+		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/_config.yml",
+		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/_posts/2016-02-29-reacon-metasploitable.md",
+		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/_posts/2015-11-30-hpc_batch_processing.md",
+		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/aboutme.md",
+		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/_posts/sftp-config.json",
+		"/D/Users/Devin/Downloads/Squarespace-Wordpress-Export-03-28-2016.xml",
+		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/aboutme.html",
+		"/D/Users/Devin/Documents/GitHub/myece4532/lab4/trejo_devin_004.tex",
+		"/D/Users/Devin/Documents/MATLAB/chirp.raw",
+		"/D/Users/Devin/Documents/GitHub/myece4532/lab1/trejo_devin_001.tex",
+		"/D/Users/Devin/Documents/GitHub/myece4532/.gitignore",
+		"/C/Users/Devin/OneDrive/Documents/School/Senior 2 - Temple/data_comm/labs/lab1/trejo_devin_001.tex",
+		"/D/Users/Devin/Documents/GitHub/myenv/sublime3/Packages/User/Package Control.sublime-settings",
+		"/D/Users/Devin/Downloads/LaTex_header.tex",
+		"/D/Users/Devin/Downloads/test_tex.tex",
+		"/D/Users/Devin/Downloads/onenote_export/Computer Intrusion.xps",
+		"/D/Users/Devin/Downloads/IEEEtran/bare_jrnl_comsoc.tex",
+		"/D/Users/Devin/Downloads/IEEEtran/README",
+		"/D/Users/Devin/Downloads/IEEEtran/bare_jrnl_compsoc.tex",
+		"/D/Users/Devin/Downloads/IEEEtran/IEEEtran.cls",
+		"/D/Users/Devin/Downloads/IEEEtran/bare_adv.tex",
+		"/D/Users/Devin/Documents/GitHub/myenviorment/sublime3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Devin/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/D/Users/Devin/Documents/GitHub/myenviorment/sublime3/Packages/User/Package Control - Copy.sublime-settings",
+		"/D/Users/Devin/Documents/GitHub/myenviorment/sublime3/Packages/User/Preferences.sublime-settings",
+		"/D/Users/Devin/Documents/GitHub/myenviorment/.gitignore",
+		"/C/Users/Devin/OneDrive/Documents/School/self-learning/mit_courseworks/6006_algos/assignments/hw1/ps1_sol.tex",
+		"/C/Users/Devin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Devin/OneDrive/Documents/School/self-learning/mit_courseworks/6006_algos/assignments/hw1/ps1_critique.tex",
+		"/C/Users/Devin/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/toiChatNameServer.py",
+		"/C/Users/Devin/OneDrive/Documents/School/Senior 2 - Temple/comp_intrusion/20160307_privledged_seperation.txt",
+		"/C/Users/Devin/OneDrive/Documents/School/Senior 2 - Temple/comp_intrusion/20160321_vsftpd.txt",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/toiChatClient.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/protobuf/ToiChatProtocol.proto",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/toiChatServer.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/toiChatMessageProcessor.py",
+		"/C/Users/Devin/OneDrive/Documents/School/self-learning/google/20160305_googlephoneprep.txt",
+		"/D/Users/Devin/Downloads/My New Cover Letter 1603161450.txt",
+		"/D/Users/Devin/Google Drive/My Documents/Work/resume/trejo_devin_resume.txt",
+		"/C/Users/Devin/OneDrive/Documents/School/Senior 2 - Temple/comp_intrusion/20160222_bufferoverflows.txt",
+		"/C/Users/Devin/OneDrive/Documents/School/self-learning/20160305_googlephoneprep.txt",
+		"/C/Users/Devin/OneDrive/Documents/School/self-learning/google/merge_sort.py",
+		"/D/Users/Devin/Downloads/12946.nedc_000.OU",
+		"/D/Users/Devin/Downloads/13527.nedc_000.ER",
+		"/D/Users/Devin/Downloads/12946.nedc_000.ER",
+		"/D/Users/Devin/Downloads/13527.nedc_000.OU",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/setup.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/toiChatShell.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/testSSH.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/ping.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/toiChatPing.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/README.md",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/python_ping/__init__.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/.gitmodules",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/__init__.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi_scripts/modules/external/python_ping/__init__.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/toiChatNameServer.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/toiChatServer.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/toiChatPing.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/external/python_ping/setup.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/toiChatShell.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/toiChatShell.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/toiChatter.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/__init__.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/toiChatClient.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/testSSH.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/listen_router.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/txArpInfo.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/conn_router.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/CHANGELOG.md",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/router-scripts/router_request_arpinfo.sh",
+		"/C/Users/Devin/OneDrive/Documents/School/Senior 2 - Temple/comp_intrusion/20160222_classnotes.txt",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/sftp-config.json",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/external/python_ping/README.creole",
+		"/C/Users/Devin/OneDrive/Documents/School/Senior 2 - Temple/data_comm/labs/lab2/TCPIPtest(1).txt",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/toichat.sublime-workspace",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/protobuf/ToiChatProtocol.proto",
+		"/D/Users/Devin/Documents/temp.txt",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/modules/python-ping/ping.py",
+		"/D/Users/Devin/Documents/GitHub/ToiChat/src/pi-scripts/network_tools/python3-ping/ping_header_info.txt",
+		"/D/Users/Devin/Downloads/temp.txt",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/sftp-config-alt.json",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/modules/toiChatServer.py",
+		"/C/Users/Devin/OneDrive/Documents/School/Senior 2 - Temple/comp_intrusion/temple-dhcp.txt",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/rxtx_threaded.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/modules/toiChatNameServer.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/sftp-config.json",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/modules/protobuf/ToiChatProtocol.proto",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/toiChat.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/rxtx_threaded.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/modules/protobuf/nameServerProto_pb2.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/modules/protobuf/nameServerProto.proto",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/protobuf/toiChat.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/protobuf/ToiChatProtocol.proto",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/toiChatServer.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/toiChatClient.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/example_code/threading/writefile_w_threading.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/protobuf/ToiChatProtocol_pb2.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/protobuf/__init__.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/.gitignore",
+		"/D/Users/Devin/Downloads/protoc-2.6.1-win32/readme.txt",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/toiChatMessenger",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/protobuf/message_types_toichat.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/networking_toichat.py",
+		"/D/Users/Devin/Downloads/nedc_000_devin_theano-test.txt",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/gatewayIP.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/conn_router.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/sendTCP.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/receiveTCP.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/python/TCP/modules/pi_process_client_toichat.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/router-scripts/router_request_arpinfo.sh",
+		"/E/20160129_sublime_settings.sublime-settings",
+		"/C/Users/Devin/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/Users/Devin/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/Devin/AppData/Roaming/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/C/Users/Devin/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/router-scripts/router_tx_arpinfo.sh",
+		"/C/users/devin/appdata/local/temp/sublime-sftp-browse-1454012722/mapped/home/pi/projects/github/Broadband-Hamnet/src/pi-scripts/pi-router-comm/conn_router.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/src/pi-scripts/pi-router-comm/conn_router.py",
+		"/C/users/devin/appdata/local/temp/sublime-sftp-browse-1454012554/mapped/home/pi/projects/github/Broadband-Hamnet/src/pi-scripts/pi-router-comm/conn_router.py",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/pi1_sftp.json",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/README.md",
+		"/D/Users/Devin/Documents/GitHub/Broadband-Hamnet/toi-chat.sublime-project",
+		"/D/Users/Devin/Documents/GitHub/myece4512/lab2/dev_digicomm_lab2.m"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"D:\\Users\\Devin\\Documents\\GitHub\\ToiChat"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"golden imag",
+			"golden imag'",
+			"golden image",
+			"\"golden image\"",
+			"golden image",
+			"ganglia",
+			"hdfs",
+			"gen_feats",
+			"gen feats",
+			"gen_feats",
+			".sh",
+			"Neuronix",
+			"|",
+			"theproblemsetnum",
+			"tab",
+			"tabl",
+			"->",
+			"ontroller unit (MCU). Our PIC3",
+			"\\tabUnit",
+			"\\solution",
+			"\\solutiontrue",
+			"windows",
+			"sama",
+			"samu",
+			"pdf",
+			"getname",
+			"last",
+			"last_ping",
+			"login",
+			"len(",
+			"False",
+			"self.logger",
+			"logger",
+			"ackDNSMessage",
+			"ackDNSMessage\n",
+			"handleACKDNS",
+			"socket",
+			"waitResponse",
+			"lookupIPByHostname",
+			"syncDNS",
+			"attempt",
+			"syncDNS",
+			"sync",
+			"attempt",
+			"handle",
+			"composition",
+			"arge",
+			"aggergation",
+			"nameserver",
+			"{",
+			"",
+			"",
+			"{",
+			"do_one",
+			"do_o9ne",
+			"one\none\ndo_one",
+			"one\ndo_one",
+			"one",
+			"ping_one",
+			"handle",
+			"nameserver",
+			"getType",
+			"toiChatClient",
+			"sendMessage",
+			"force",
+			":/home/",
+			":500:",
+			":x:504:500:",
+			"messageProcess",
+			"__recvall",
+			"toiChatClient",
+			"self.myToiChatClien",
+			"handle",
+			"self.myToiChatClien",
+			"is not",
+			"    # -- START FUNCTION DESCR --\n    #\n    # Initiates a DNS table sync with designated client\n    #\n    # Inputs:\n    #   - toiServerIP = The server we should sync with\n    #\n    # Outputs:\n    #   None\n    #\n    # -- END FUNCTION DESCR --\n    def syncDNS(self, toiServerIP):\n        requestDNS = self.createRequestDnsMessage()\n        self.myToiChatClient.sendMessage(toiServerIP, requestDNS, \\\n                    toiServerPORT)\n        return 1",
+			"sync",
+			"handle",
+			"modules",
+			"except Exception, err",
+			"except",
+			"external",
+			"attempt",
+			"time",
+			"close",
+			"message sent",
+			"trying to",
+			"attempt",
+			"attempting to",
+			"started",
+			"startedf",
+			"started",
+			"\\n",
+			"self.logging",
+			"logging",
+			"self.logging",
+			"queue",
+			"print",
+			"put",
+			"self.printQueue",
+			"printqueue",
+			"self.logfile",
+			"self.log",
+			"put",
+			"printtofile",
+			"self.W",
+			"printtofile",
+			"self.W",
+			"__printToFile__",
+			"elf.printQueue.put",
+			"printQueue.put",
+			"printQueue",
+			"txArpInfo",
+			"print",
+			"printy",
+			"pritn",
+			"valid",
+			"addt",
+			"quiet",
+			"pingdns",
+			"do_bye",
+			"return",
+			"stopserver",
+			"self.cmd",
+			"self",
+			"None",
+			"are you sure",
+			"lookupDnsLegnth"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"except Exception as err",
+			"packet_size",
+			"",
+			"\\n",
+			"    ",
+			"self.serverOut",
+			"file=self.severOut",
+			"__sendToiChatMessage__",
+			"ToiChat",
+			"self.q_send"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 263.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-checkout":
+	{
+		"height": 148.0
+	},
+	"output.git-commit":
+	{
+		"height": 148.0
+	},
+	"output.git-push":
+	{
+		"height": 148.0
+	},
+	"output.markdown":
+	{
+		"height": 184.0
+	},
+	"output.sftp":
+	{
+		"height": 921.0
+	},
+	"pinned_build_system": "",
+	"project": "dtrejod.github.io.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Devin\\OneDrive\\Documents\\School\\Senior 2 - Temple\\comp_intrusion\\comp_intrusion.sublime-project"
+			]
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 360.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
