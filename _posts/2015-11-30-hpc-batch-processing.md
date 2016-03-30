@@ -78,16 +78,16 @@ stackoverflow.com further explains the difference:
 > data locality. You send the data to another node for it to be computed on. 
 > Thus MPI is network-bound in terms of performance when working with large 
 > data.
- 
+>
 > MapReduce with the Hadoop Distributed File System duplicates data so that 
 > you can do your compute in local storage - streaming off the disk and 
 > straight to the processor. Thus MapReduce takes advantage of local storage 
 > to avoid the network bottleneck when working with large data.
- 
+>
 > This is not to say that MapReduce doesn't use the network... it does: and 
 > the shuffle is often the slowest part of a job! But it uses it as little, 
 > and as efficiently as possible.
- 
+>
 > To sum it up: Hadoop (and Google's stuff before it) did not use MPI 
 > because it could not have used MPI and worked. MapReduce systems were 
 > developed specifically to address MPI's shortcomings in light of trends in 
@@ -295,7 +295,7 @@ Torque has native support for MPI and an advanced job prioritizer Maui/Moab.
 Directly from Adaptive computing site they recommend using a more 
 intelligent scheduler such as Maui/Moab:
 
-> "The default TORQUE scheduler, pbs_sched, is very basic and will provide 
+> "The default TORQUE scheduler, `pbs_sched`, is very basic and will provide 
 > poor utilization of your cluster's resources. Other options, such as Maui 
 > Scheduler or Moab Workload Manager, are highly recommended."
 > [Source](http://docs.adaptivecomputing.com/torque/5-1-0/help.htm#topics/torque/5-scheduler/integratingSchedulers.htm)
@@ -350,9 +350,7 @@ on our cluster. The tests will indicate whether we need to spend
 more on higher amounts of RAM, faster cores, SSD IO performance, or a high 
 bandwidth network backbone. 
 
-**Background**
-5 Nodes
-
+**Background (5 Nodes):**
 - 1x Main Node: Core i7 930 , 3GB RAM, 3 HDD (`sda1 /boot` 250GB, 
 `sdb1 /dsk1` 160GB, `sdc1 /dsk2` 250GB). The job is ran using data hosted 
 off a NFS hosted on this main node under the disk `sdc1`.
@@ -404,7 +402,7 @@ utilization? Let us look at other resource usages over the time period
 ![Memory Usage (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memtotal.png)
 ![Memory Free (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memfree.png)
 ![Memory Cache (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memcache.png)
-![Swap Usage (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memswap)
+![Swap Usage (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memswap.png)
 
 In these graphs we can see that on average the main node has no free 
 memory (An oversight that only is 3GB installed). The limited amount of 
@@ -574,7 +572,7 @@ data security.
 The final configuration reached us on August 20, 2015. Below are some 
 glamor shots.
 
-![Main-node (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc_000-front.jpg)
+![Main-node (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc-000-front.jpg)
 ![TOP: Compute Nodes BOTTOM: Webserver (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-webserver-nedc-002-5-front.jpg)
 
 ![Redundant PSUs (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc-002-5-inside-psu.jpg)
