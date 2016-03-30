@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [ECE 5526] NMAP Network Footprint and A Recon on Metasploitable
+title: ECE 5526: NMAP Network Footprint and A Recon on Metasploitable
 categories: TempleU
 tags: [programming, software, linux, school, server, bash, security, python]
-bigimg: /img/_posts/reacon_metasploitable/virtualmachine_env.png
+bigimg: /img/posts/reacon-metasploitable/virtualmachine-env.png
 ---
 
 Today, we look more in depth into NMAP, a popular open-source security 
