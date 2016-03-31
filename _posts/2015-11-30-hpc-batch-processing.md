@@ -22,9 +22,7 @@ for our [AutoEEG project](http://www.isip.piconepress.com/projects/auto_eeg/).
 I leaded the effort in trying to setup, optimize and maintain the cluster. 
 In this blog I lay out the research, testing, and results of my quest.
 
-[Click here for a poster that summarizes the project.](https://drive.google.com/file/d/0B0-6fYMnbaHmb2pJck51OVZWVDA/view?usp=sharing) 
-
-
+[Click here for a poster that summarizes the project.](https://drive.google.com/file/d/0B0-6fYMnbaHmb2pJck51OVZWVDA/view?usp=sharing)
 # Research
 Before we go further I researched the differences between 
 [Grid Computing](https://en.wikipedia.org/wiki/Grid_computing)
@@ -49,12 +47,11 @@ projects you may have heard of before are
 In general, a grid computing platform is a collection of computers that 
 solve a problem using varying operating systems, differing hardware, ect.
 
-{: .text-center}
 ![Grid Computing](/img/posts/hpc-batch-processing/grid-computing.gif "Grid Computing")
-
 {: .text-center}
 ![Cluster Computing](/img/posts/hpc-batch-processing/cluster-computing.jpg "Cluster Computing")
- 
+{: .text-center}
+
 ### Computer Cluster
 [Clustering](http://en.wikipedia.org/wiki/Computer_cluster) is different 
 from grid computing in that it dedicates physical computers to running 
@@ -112,8 +109,8 @@ and two Dell OptiPlex 755) but we figured the PCs were adequate to setup
 a test HPC setup. From here on out these set of computers will be referred 
 to as the 'NEDC Test Cluster'. A picture of the machines is seen below:
 
-{: .text-center}
 ![NEDC Test Cluster](/img/posts/hpc-batch-processing/nedc-test-cluster.png "NEDC Test Cluster")
+{: .text-center}
 
 In my research I start where any student would: Google Search. From Google 
 search I found a countless number of articles claiming to be the one 
@@ -169,11 +166,11 @@ Temple's MAC restricted network. After these alterations from 7 PCs
 provided by Temple's IT staff we only have 4 compute nodes (with varying 
 hardware specs). 
 
-{: .text-center}
 ![Hadoop Resource Usage](/img/posts/hpc-batch-processing/hadoop-resource-usage.jpg "Hadoop Resource Usage")
-
 {: .text-center}
+
 ![Hadoop Running Services](/img/posts/hpc-batch-processing/hadoop-running-services.jpg "Hadoop Running Services")
+{: .text-center}
 
 Great so Hadoop is running but we can not use it without heavily adapting 
 our code;  bummer. What other options do we have? Well at this time our 
@@ -370,14 +367,14 @@ running simultaneously (since we have 10 cores amongst our compute test
 nodes). I submitted the job with a wall time of 6 hrs. 
 
 Also, I have one (instead of fifty) instance of the job running on 
-Temple University HPC Cluster Owl's Nest. We will compare the two clusters 
+Temple University HPC Cluster OwlsNest. We will compare the two clusters 
 to see how performance differs.
 
 The purpose of this test is to see if their are hardware limitations 
 (such as disk/network bandwidth) we should note before buying our hardware.
 
+![Torque Job Listing (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-joblisting.png "[Torque Job Listing (NEDC Test Cluster)")
 {: .text-center}
-![Torque Job Listing (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-joblisting.png)
 
 # Results
 
@@ -389,8 +386,8 @@ cluster.
 As expected the job is fully loading our four compute nodes. By default 
 the tool allows us to see the usage of the cluster is the past hour:
 
+![Ganglia While Running `gen_feats.sh` (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-ganglia-genfeats.png "Ganglia While Running `gen_feats.sh` (NEDC Test Cluster)")
 {: .text-center}
-![Ganglia While Running `gen_feats.sh` (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-ganglia-genfeats.png)
 
 Great, the cluster works! What we are really interested though is to see 
 the hardware usage as we run the job. First we can observe the usage of 
@@ -398,8 +395,8 @@ our cores across all nodes (besides main node) are maxed for the majority
 of time.
 
 ### CPU
+![CPU Usage (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-cpuidle.png "CPU Usage (NEDC Test Cluster)")
 {: .text-center}
-![CPU Usage (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-cpuidle.png)
 
 In the plot above note there are instances however where our nodes are 
 idle for a brief period of time. What is the cause of the drop in 
@@ -407,15 +404,14 @@ utilization? Let us look at other resource usages over the time period
 14:30->16:00.
 
 ### Memory
-
+![Memory Usage (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memtotal.png "Memory Usage (NEDC Test Cluster)")
 {: .text-center}
-![Memory Usage (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memtotal.png)
+![Memory Free (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memfree.png "Memory Free (NEDC Test Cluster)")
 {: .text-center}
-![Memory Free (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memfree.png)
+![Memory Cache (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memcache.png "Memory Cache (NEDC Test Cluster)")
 {: .text-center}
-![Memory Cache (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memcache.png)
+![Swap Usage (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memswap.png "Swap Usage (NEDC Test Cluster)")
 {: .text-center}
-![Swap Usage (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-memswap.png)
 
 In these graphs we can see that on average the main node has no free 
 memory (An oversight that only is 3GB installed). The limited amount of 
@@ -431,14 +427,14 @@ We are also curious if the disk /network hosting the data on the mn
 read/write operations as well as the network traffic over the same 
 period time.
 
+![SDC Read (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-sdcread.png "SDC Read (NEDC Test Cluster)")
 {: .text-center}
-![SDC Read (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-sdcread.png)
+![SDC Write (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-sdcwrite.png "SDC Write (NEDC Test Cluster)")
 {: .text-center}
-![SDC Write (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-sdcwrite.png)
+![Network Rx (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-networkrx.png "Network Rx (NEDC Test Cluster)")
 {: .text-center}
-![Network Rx (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-networkrx.png)
+![Network Tx (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-networktx.png "Network Tx (NEDC Test Cluster)")
 {: .text-center}
-![Network Tx (NEDC Test Cluster)](/img/posts/hpc-batch-processing/nedc-test-cluster-networktx.png)
 
 As can be seen (although it is slightly cut off), the max read speed from 
 the drive was recorded at 8.X MB/s and the max write speed was 13.X MB/s. 
@@ -461,8 +457,8 @@ as specified on the
 [hpc.temple.edu](http://www.hpc.temple.edu/owlsnest/) website. We can see 
 that by the fact `pbs_jobs = 1` in the graph below.
 
+![Jobs Running (OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-pbs-jobs.png "Jobs Running (OwlsNest)")
 {: .text-center}
-![Jobs Running (Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-pbs-jobs.png)
 
 The fact it only processes one job per node is actually beneficial for our 
 test as it allows us to see the entire usage of the job on higher end 
@@ -470,43 +466,42 @@ hardware. I will now display the usage of the node's various hardware
 resources.
 
 ### Node Specs
+![Node Specs (OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-nodespecs.png "Node Specs (OwlsNest)")
 {: .text-center}
-![Node Specs (Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-nodespecs.png)
 
 ### CPU
+![CPU Usage(OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-cpuidle.png "CPU Usage(OwlsNest)")
 {: .text-center}
-![CPU Usage(Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-cpuidle.png)
 
 Note how the CPU is fully loading the one CPU core (100/12=8.3%). 100% CPU 
 utilization is desired. 
 
 ### Memory
+![Memory Free (OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-memfree.png "Memory Free (OwlsNest)")
 {: .text-center}
-![Memory Free (Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-memfree.png)
+![Memory Usage (OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-memcache.png "Memory Usage (OwlsNest)")
 {: .text-center}
-![Memory Usage (Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-memcache.png)
+![Swap Usage (OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-swap.png "Swap Usage (OwlsNest)")
 {: .text-center}
-![Swap Usage (Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-swap.png)
 
 ### Disk
+![Network Rx - NFS (OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-nfs-networkrx.png "Network Rx - NFS (OwlsNest)")
 {: .text-center}
-![Network Rx - NFS (Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-nfs-networkrx.png)
-{: .text-center}
-![Network Tx - NFS (Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-nfs-networktx.png)
+![Network Tx - NFS (OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-nfs-networktx.png "Network Tx - NFS (OwlsNest)")
 {: .text-center}
 
 There is no way to see the actual disk bandwidth usage. Also the data is 
-stored on owl's nest NFS server owlsnest3.nfs. Instead I will look at the 
+stored on OwlsNest NFS server owlsnest3.nfs. Instead I will look at the 
 network usage of the owlsnest3.nfs.
 
 The network usage is low especially for 1GbE connections throughout the 
 cluster. 
 
 ### Network
+![Network Rx (OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-networkrx.png "Network Rx (OwlsNest)")
 {: .text-center}
-![Network Rx (Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-networkrx.png)
+![Network Tx (OwlsNest)](/img/posts/hpc-batch-processing/owlsnest-networktx.png "Network Tx (OwlsNest)")
 {: .text-center}
-![Network Tx (Owl's Nest)](/img/posts/hpc-batch-processing/owlsnest-networktx.png)
 
 The file server appears to be able to keep up with the data draw from the 
 job. The job is only reading in data at a rate of 2MB/s and out at a rate 
@@ -520,7 +515,7 @@ purchase would benefit from as many fast CPU cores as possible. Large
 amounts of RAM is also needed to run these jobs. The job results summarize 
 our findings nicely:
 
-| Resource | Intel Xeon E5506 (4C) @ 2.133 GHz and 6GB RAM (NEDC Test Cluster) | Intel Xeon X5660 (6C) @ 2.8 GHz and 12GB RAM (Owl's Nest ) |
+| Resource | Intel Xeon E5506 (4C) @ 2.133 GHz and 6GB RAM (NEDC Test Cluster) | Intel Xeon X5660 (6C) @ 2.8 GHz and 12GB RAM (OwlsNest ) |
 |:---:|:---:|:---:|
 | Files Processed | 777 Files Successful | 1000 Files Successful |
 | JobName | gen_feats  | gen_feats |
@@ -534,7 +529,7 @@ our findings nicely:
 We can see the NEDC test cluster was substantially slower. It took 
 approximately 8 hrs to complete only 777 out of 1000 files successfully. 
 We suspect there were IO bottlenecks limiting the write access to the NFS. 
-On Owl's Nest we do not see this problem. It completed all 1000 EDFs 
+On OwlsNest we do not see this problem. It completed all 1000 EDFs 
 successfully. However, both tests indicate that the scripts uses 3.5GB of 
 RAM to run. RAM usage will be an important factor when finalizing the 
 build for our actual NEDC compute cluster.
@@ -600,35 +595,34 @@ data security.
 The final configuration reached us on August 20, 2015. Below are some 
 glamor shots.
 
+![Main-node (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc-000-front.jpg "Main-node (NeuroNix)")
 {: .text-center}
-![Main-node (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc-000-front.jpg)
+![TOP: Compute Nodes BOTTOM: Webserver (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-webserver-nedc-002-5-front.jpg "TOP: Compute Nodes BOTTOM: Webserver (NeuroNix)")
 {: .text-center}
-![TOP: Compute Nodes BOTTOM: Webserver (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-webserver-nedc-002-5-front.jpg)
-
+![Redundant PSUs (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc-002-5-inside-psu.jpg "Redundant PSUs (NeuroNix)")
 {: .text-center}
-![Redundant PSUs (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc-002-5-inside-psu.jpg)
+![Compute Nodes (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc-002-5-top.jpg "Compute Nodes (NeuroNix)")
 {: .text-center}
-![Compute Nodes (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc-002-5-top.jpg)
 
 **Top down view on compute nodes**
 By running the same tests we ran before, we can see how NeuroNix performs 
-compared to Owl's Nest and our now retired NEDC test cluster. The job 
+compared to OwlsNest and our now retired NEDC test cluster. The job 
 starts as soon as I submit since our group has exclusive access to the 
 cluster. The node that takes on the job is `nedc_005` 
 (compute node `hostnames=nedc_00[2-5]`). On our cluster, multiple jobs can 
 run on the same node but when I started the benchmark when no other jobs 
 were running. 
 
+![Job Submit (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-job.png "Job Submit (NeuroNix)")
 {: .text-center}
-![Job Submit (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-job.png)
 
 The Ganglia statistics are listed below. Since the job is the same we see 
 similar resource usage as we saw before. Note how our CPU speed it 2.4GHz 
 compared to 2.73GHz seen on OwlsNest.
 
 ### Node Specs
+![Node Specs (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nodespecs.png "Node Specs (NeuroNix)")
 {: .text-center}
-![Node Specs (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nodespecs.png)
 
 ### CPU
 We see CPU usage fluctuate starting around 12AM. That is because another 
@@ -637,18 +631,18 @@ see how our job is only using approx 3.125% of the CPU. That is because
 we have 32 cores and the job was focused on running only on one core 
 (100/32=3.125). 
 
+![CPU Usage (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-cpuidle.png "CPU Usage (NeuroNix)")
 {: .text-center}
-![CPU Usage (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-cpuidle.png)
 
 ### Memory
 Throughout the duration of the benchmark and including the extra jobs ran 
 by another user we see we have plenty of headroom for our program to grow. 
 We never dropped below the 236MB of free memory on our node.
 
+![Memory Usage (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-memcache.png "Memory Usage (NeuroNix)")
 {: .text-center}
-![Memory Usage (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-memcache.png)
+![Memory Free (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-memfree.png "Memory Free (NeuroNix)")
 {: .text-center}
-![Memory Free (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-memfree.png)
 
 ### Network
 For the duration of our job we see average network usage hover around 
@@ -656,10 +650,10 @@ For the duration of our job we see average network usage hover around
 between `nedc_005` and `nedc_000` (mainnode) is able to reach speeds of 
 128MB/sec. Thus we see no bottleneck in our network for this job. 
 
+![Network Rx (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-networkrx.png "Network Rx (NeuroNix)")
 {: .text-center}
-![Network Rx (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-networkrx.png)
+![Network Tx (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-networktx.png "Network Tx (NeuroNix)")
 {: .text-center}
-![Network Tx (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-networktx.png)
 
 ### Comparing NeuroNix with OwlsNest and Test Cluster
 The results for running the `gen_feats` benchmark NeuroNix shows us that 
@@ -668,7 +662,7 @@ OwlsNest CPU limitations. On OwlsNest we saw a run-time of 5Hrs but that
 Xeon CPU is running at 2.8GHz compared to our AMD Opteron running at 
 2.4GHz. Across the board we see a memory usage of ~3.4GB. 
 
-| Resource | (2x) AMD Opteron 6378 (16C) @ 2.4GHz and 256GB RAM (NeuroNix) | Intel Xeon E5506 (4C) @ 2.133GHz and 6GB RAM (NEDC Test Cluster) | Intel Xeon X5660 (6C) @ 2.8GHz and 12GB RAM. (Owl's Nest) |
+| Resource | (2x) AMD Opteron 6378 (16C) @ 2.4GHz and 256GB RAM (NeuroNix) | Intel Xeon E5506 (4C) @ 2.133GHz and 6GB RAM (NEDC Test Cluster) | Intel Xeon X5660 (6C) @ 2.8GHz and 12GB RAM. (OwlsNest) |
 |:---:|:---:|:---:|:---:|
 | Files Processed | 1000 Files Successful | 777 Files Successful | 1000 Files Successful |
 | JobName | gen_feats | gen_feats | gen_feats |
