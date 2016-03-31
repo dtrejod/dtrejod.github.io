@@ -7,18 +7,17 @@ subtitle: On-line Resume
 https://drive.google.com/file/d/0B0-6fYMnbaHmR0xSNU8tQm0tOUk/view?usp=sharing)
 {: .text-center}
 
-# Education
-<span class="fa fa-graduation-cap"></span> 
+# <span class="fa fa-graduation-cap"></span>  Education
 **Temple University**  
-Bachelor of Science in Electrical Engineering (Spring 2016 Graduation) 
+Bachelor of Science in Electrical Engineering (Spring 2016 Graduation)  
 *September 2012 - Present*
 
-## Highlights:  
+### Highlights:  
 
 - Dean's List
 - Eta Kappa Nu - IEEE's Honor Society
 
-## Relevant Coursework:  
+### Relevant Coursework:  
 
 - Engineering Principles of Computer Intrusion and Detection
 - Digital Communications
@@ -31,8 +30,7 @@ Bachelor of Science in Electrical Engineering (Spring 2016 Graduation)
 - Classical Physics 2
 - Stochastic Processes
 
-# My Work Experience
-<span class="fa fa-briefcase"></span>
+# <span class="fa fa-briefcase"></span> Work Experience
 **Neural Engineering Data Consortium**  
 DEVOPS - DATA SCIENTIST - BUDGET COORDINATOR  
 *August 2014 - Present*
@@ -54,7 +52,6 @@ maximize available expenditure. I worked alongside Temple Engineering's
 business manager in keeping track of four different funds contributing 
 to our research. 
 
-<span class="fa fa-briefcase"></span>
 **Analytical Graphics**  
 DATABASE DEVELOPMENT INTERN  
 *May 2010 - August 2012*
