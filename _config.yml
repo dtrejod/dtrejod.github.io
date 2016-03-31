@@ -23,11 +23,10 @@ description: Electrical Engineering Student - DevOps/Data Scientist for Neural D
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: "https://dtrejod.github.io"
+  Blog: "/"
+  Project Highlights:
+    - NeuroNix HPC: "/2015-11-30-hpc-batch-processing/"
   About Me: "aboutme"
-  Resources:
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://www.tdevin.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
