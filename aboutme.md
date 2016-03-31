@@ -1,74 +1,47 @@
 ---
 layout: page
 title: About me
-subtitle: Who's who?
 ---
 
-My name is Devin Trejo. I'm an electrical engineering student at Temple
+# Introduction
+My name is Devin Trejo. I'm an Electrical Engineering student at Temple
 University located in Philadelphia, PA. I currently work for the [Neural 
 Engineering Data Consortium](https://www.nedcdata.org) as a development
 operator (DevOps) engineer.
 
-### My Education
+I am passionate to explore the new frontier of Cyber Security and applying
+Engineering principals to new problems. During my time with the [Neural 
+Engineering Data Consortium](https://www.nedcdata.org) I constructed
+the NeuroNix supercomputer to conduct deep machine learning to
+to clinical EEGs. Our research group was the first group from the College 
+to successfully develop a secure enough computing environment to be housed
+in Temple's main data center. I was part of the data team that put together
+the largest EEG corpus which was mined by the group's algorithms. 
 
-**Temple University** (B.S. Electrical Engineering)  
-*September 2012 - Present*
+I am a programmer and system administrator with a strong Electrical 
+Engineering background. I have been apart of big software projects including 
+the implementation of self-configuring mesh networks, construction of 
+autonomous robots, data mining of QVC sales data, and the development of 
+static websites. 
 
-Highlights:  
+For more infomation about me be sure to visit [my blog page](/index) or 
+review my [resume](/resume).
 
-- Dean's List
-- Eta Kappa Nu - IEEE's Honor Society
+# The Blog
+The blog is a resource for me to archive my projects and show others
+what I have accomplished. I hope people will find the information
+on it useful for solving their problems or to gain new insights in a area
+I cover.
 
-Classes:  
+# Traveling
+{: .glyphicon-plane:before}
 
-- Engineering Principles of Computer Intrusion and Detection
-- Digital Communications
-- Digital Signal Processing
-- Control Systems
-- Microprocessors
-- Digital Circuit Design
-- EE Science (Circuit Analysis)
-- Mechanical Systems
-- Classical Physics 1 & 2
-- Stochastics 
+In my free time, I enjoy exploring new places and cultures. I have been to
+a number of countries including: Italy, Bahamas, Costa Rica, Dominican
+Republic, Canada, Croatia, France, Spain, Slovenia, Mexico. I've also
+traveled inside the United States to the states of California, Florida, New
+York, Nevada, and Massachusetts. Traveling has allowed me to see life in
+new perspectives that can not be obtained anywhere else.
 
-### My Work Experience
-
-**Neural Engineering Data Consortium**  
-DEVOPS/DATA SCIENTIST/BUDGET COORDINATOR  
-*August 2014 - Present*
-
-Summer 2015 I was brought to head the development of the NEDC computer 
-cluster. This $30k HPC purchase was configured to best suit our research 
-group's batch processing needs. To go along with the computer cluster we 
-also brought online a locally hosted web/gitlab server to host the research 
-group's source code/project accomplishments. 
-
-Using records pulled from Temple University Hospital's (TUH) database we 
-put together the largest data corpus of clinical EEGs. The data is to be 
-used to train machine learning software that is used in normal/abnormal 
-EEG classification, and epilepsy detection. All our work is publicly 
-distributed online for other neural engineering researchers to use.
-
-Concurrently I managed the half million in NEDC research funds looking to 
-maximize available expenditure. I worked alongside Temple Engineering's 
-business manager in keeping track of four different funds contributing 
-to our research. 
-
-**Analytical Graphics**  
-DATABASE DEVELOPMENT INTERN  
-*May 2010 - August 2012*
-
-In the summer of 2010, I obtained a position to help develop the standard 
-object catalog (database) for use with Systems Tool Kit (STK). I wrote 
-scripts to scrape online and internal databases that formed the basis for 
-the SOC.
-
-During this time STK 10 was being developed and I was one of the first to 
-step through the complete tutorial ensuring its content was comprehensive.
-As a side project, I worked with other employees in the company to create
-promotional videography for the new release.
-
-By summer 2012, I also had the chance to assist the IT department routine 
-computer maintenance. The position focused on the building and imaging of 
-new computers. 
+!["Devin Trejo California"](/img/devin-trejo-profile01.jpg "Devin Trejo California")
+{: .text-center}

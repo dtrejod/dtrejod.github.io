@@ -1,6 +1,7 @@
 ---
 layout: post
-title: ECE 5526 - NMAP Network Footprint and A Recon on Metasploitable
+title: NMAP Network Footprint and A Recon on Metasploitable
+subtitle: ECE 5526 - Engineering Principles of Computer Intrusion and Detection
 categories: TempleU
 tags: [programming, software, linux, school, server, bash, security, python]
 bigimg: /img/posts/reacon-metasploitable/virtualmachine-env.png
