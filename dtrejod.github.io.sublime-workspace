@@ -140,13 +140,36 @@
 	"buffers":
 	[
 		{
-			"contents": "Searching 88 files for \"this is where\"\n\nD:\\Users\\Devin\\Documents\\GitHub\\dtrejod.github.io\\index.html:\n    2  layout: page\n    3  title: My website\n    4: subtitle: This is where I will tell my friends way too much about me\n    5  ---\n    6  \n\nD:\\Users\\Devin\\Documents\\GitHub\\dtrejod.github.io\\README.md:\n   29  ## Prerequisites\n   30  \n   31: - You need to have a GitHub account. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. This is where your website will live - if you sign up with username `johnsmith` then your website will be `http://johnsmith.github.io`.  \n   32  - It would be helpful to understand what Markdown is and how to write it. Markdown is just a way to take a piece of text and format it to look a little nicer.  For example, this whole instruction set that you're reading is written in markdown - it's just text with some words being bold/larger/italicized/etc. I recommend taking 5 minutes to learn markdown [with this amazingly easy yet useful tutorial](http://markdowntutorial.com/).\n   33  \n   ..\n   71  ### Last important thing: YAML front matter (\"parameters\" for a page)\n   72  \n   73: In order to have your new pages use this template and not just be plain pages, you need to add [YAML front matter](http://jekyllrb.com/docs/frontmatter/) to the top of each page. This is where you'll give each page some parameters that I made available, such as a title and subtitle. I'll go into more detail about what parameters are available later. If you don't want to use any parameters on your new page (this also means having no title), then use the empty YAML front matter:\n   74  \n   75  ```\n\n3 matches across 2 files\n",
+			"file": "/D/Users/Devin/Google Drive/My Documents/work/resume/resume.tex",
 			"settings":
 			{
-				"buffer_size": 1679,
+				"buffer_size": 4767,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Devin/OneDrive/Documents/School/self-learning/google/20160305_googlephoneprep.txt",
+			"settings":
+			{
+				"buffer_size": 12623,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Users/Devin/Google Drive/My Documents/work/resume/cover_letter.txt",
+			"settings":
+			{
+				"buffer_size": 1409,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "armm4 - armchip\nreconfigurable computing blocks\nreal time OS\ninterrupt\n\n",
+			"settings":
+			{
+				"buffer_size": 72,
 				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
+				"name": "armm4 - armchip"
 			}
 		}
 	],
@@ -173,20 +196,28 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 407.0,
-		"last_filter": "toggle",
+		"height": 503.0,
+		"last_filter": "pdf",
 		"selected_items":
 		[
+			[
+				"pdf",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"latex",
+				"LaTeXTools: Jump to PDF"
+			],
 			[
 				"toggle",
 				"View: Toggle Side Bar"
 			],
 			[
 				"markdo",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"markdown",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
@@ -200,10 +231,6 @@
 			[
 				"move",
 				"File: Move"
-			],
-			[
-				"latex",
-				"Build With: LaTeX"
 			],
 			[
 				"install",
@@ -337,6 +364,7 @@
 	],
 	"file_history":
 	[
+		"/D/Users/Devin/Documents/GitHub/myece4532/lab4/trejo_devin_004.tex",
 		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/_config.yml",
 		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/index.html",
 		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/_posts/2015-11-30-hpc-batch-processing.md",
@@ -347,7 +375,6 @@
 		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/_posts/sftp-config.json",
 		"/D/Users/Devin/Downloads/Squarespace-Wordpress-Export-03-28-2016.xml",
 		"/D/Users/Devin/Documents/GitHub/dtrejod.github.io/aboutme.html",
-		"/D/Users/Devin/Documents/GitHub/myece4532/lab4/trejo_devin_004.tex",
 		"/D/Users/Devin/Documents/MATLAB/chirp.raw",
 		"/D/Users/Devin/Documents/GitHub/myece4532/lab1/trejo_devin_001.tex",
 		"/D/Users/Devin/Documents/GitHub/myece4532/.gitignore",
@@ -640,58 +667,124 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/D/Users/Devin/Google Drive/My Documents/work/resume/resume.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1679,
+						"buffer_size": 4767,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										164,
-										177
-									],
-									[
-										466,
-										479
-									],
-									[
-										1331,
-										1344
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								233,
-								233
+								1448,
+								1448
 							]
 						],
 						"settings":
 						{
-							"default_dir": "D:\\Users\\Devin\\Documents\\GitHub\\dtrejod.github.io",
-							"detect_indentation": false,
 							"incomplete_sync": null,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ 	].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Devin/OneDrive/Documents/School/self-learning/google/20160305_googlephoneprep.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9374,
+								9374
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"parser": "github",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"target": "browser",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7115.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Users/Devin/Google Drive/My Documents/work/resume/cover_letter.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1409,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"auto_name": "armm4 - armchip",
+							"default_dir": "D:\\Users\\Devin\\Documents\\GitHub\\dtrejod.github.io",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

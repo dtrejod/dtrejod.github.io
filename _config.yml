@@ -17,12 +17,13 @@ baseurl: ""
 title: Devin Trejo
 
 # Short description of your site
-description: ELECTRICAL ENGINEERING MAJOR - DevOps/Budget Coordinator for Neural Data Corpus @ Temple Hospital
+description: Electrical Engineering Student - DevOps/Data Scientist for Neural Data Corpus @ Temple Hospital
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
+  Blog: "https://dtrejod.github.io"
   About Me: "aboutme"
   Resources:
     - Learn markdown: "http://www.markdowntutorial.com/"
