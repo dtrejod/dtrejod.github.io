@@ -34,7 +34,7 @@ on it useful for solving their problems or to gain new insights in a area
 I cover.
 
 # Traveling
-<span class="glyphicon glyphicon-plane about-icon"></span>
+<span class="fa fa-plane about-icon"></span>
 
 In my free time, I enjoy exploring new places and cultures. I have been to
 a number of countries including: Italy, Bahamas, Costa Rica, Dominican

@@ -8,7 +8,7 @@ https://drive.google.com/file/d/0B0-6fYMnbaHmR0xSNU8tQm0tOUk/view?usp=sharing)
 {: .text-center}
 
 # Education
-<span class="glyphicon glyphicon-education about-icon"></span> 
+<span class="fa fa-education about-icon"></span> 
 **Temple University**  
 (B.S. Electrical Engineering)  
 *September 2012 - Present*
@@ -32,7 +32,7 @@ https://drive.google.com/file/d/0B0-6fYMnbaHmR0xSNU8tQm0tOUk/view?usp=sharing)
 - Stochastics 
 
 # My Work Experience
-<span class="glyphicon glyphicon-briefcase about-icon"></span>
+<span class="fa fa-briefcase about-icon"></span>
 **Neural Engineering Data Consortium**  
 DEVOPS - DATA SCIENTIST - BUDGET COORDINATOR  
 *August 2014 - Present*
@@ -54,7 +54,7 @@ maximize available expenditure. I worked alongside Temple Engineering's
 business manager in keeping track of four different funds contributing 
 to our research. 
 
-<span class="glyphicon glyphicon-briefcase about-icon"></span>
+<span class="fa fa-briefcase about-icon"></span>
 **Analytical Graphics**  
 DATABASE DEVELOPMENT INTERN  
 *May 2010 - August 2012*
