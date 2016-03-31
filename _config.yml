@@ -25,7 +25,7 @@ description: Electrical Engineering Student - DevOps/Data Scientist for Neural D
 navbar-links:
   Blog: ""
   Project Highlights:
-    - NeuroNix HPC: "_posts/2015-11-30-hpc-batch-processing"
+    - NeuroNix HPC: "2015-11-30-hpc-batch-processing"
   About Me: "aboutme"
   Author's home: "http://www.tdevin.com"
 
