@@ -20,7 +20,7 @@ operator (DevOps) engineer.
 
 Highlights:  
 - Dean's List
-- IEEE's Honor Society - Eta Kappa Nu
+- IEEE's Honor Society | Eta Kappa Nu
 
 Classes:  
 - Engineering Principles of Computer Intrusion and Detection
@@ -36,7 +36,7 @@ Classes:
 
 ### My Work Experience
 
-**Neural Engineering Data Consortium** - DEVOPS/DATA 
+**Neural Engineering Data Consortium** | DEVOPS/DATA 
 SCIENTIST/BUDGET COORDINATOR  
 *August 2014 - Present*
 
@@ -57,7 +57,7 @@ maximize available expenditure. I worked alongside Temple Engineering's
 business manager in keeping track of four different funds contributing 
 to our research. 
 
-**Analytical Graphics** - DATABASE DEVELOPMENT INTERN  
+**Analytical Graphics** | DATABASE DEVELOPMENT INTERN  
 *May 2010 - August 2012*
 
 In the summer of 2010, I obtained a position to help develop the standard 
