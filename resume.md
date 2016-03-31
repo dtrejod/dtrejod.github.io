@@ -5,10 +5,11 @@ subtitle: On-line Resume
 ---
 [*Download Paper copy of My Resume*](
 https://drive.google.com/file/d/0B0-6fYMnbaHmR0xSNU8tQm0tOUk/view?usp=sharing)
+{: .text-center}
 
 # Education
-
-{: .glyphicon-education:before} **Temple University**  
+<span class="glyphicon glyphicon-education about-icon"></span> 
+**Temple University**  
 (B.S. Electrical Engineering)  
 *September 2012 - Present*
 
@@ -31,7 +32,8 @@ https://drive.google.com/file/d/0B0-6fYMnbaHmR0xSNU8tQm0tOUk/view?usp=sharing)
 - Stochastics 
 
 # My Work Experience
-{: .glyphicon glyphicon-briefcase} **Neural Engineering Data Consortium**  
+<span class="glyphicon glyphicon-briefcase about-icon"></span>
+**Neural Engineering Data Consortium**  
 DEVOPS - DATA SCIENTIST - BUDGET COORDINATOR  
 *August 2014 - Present*
 
@@ -52,7 +54,8 @@ maximize available expenditure. I worked alongside Temple Engineering's
 business manager in keeping track of four different funds contributing 
 to our research. 
 
-{: .glyphicon glyphicon-briefcase} **Analytical Graphics**  
+<span class="glyphicon glyphicon-briefcase about-icon"></span>
+**Analytical Graphics**  
 DATABASE DEVELOPMENT INTERN  
 *May 2010 - August 2012*
 
