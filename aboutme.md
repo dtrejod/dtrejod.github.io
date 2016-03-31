@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-# Introduction
+# <span class="fa fa-hand-peace-o"></span>Introduction
 My name is Devin Trejo. I'm an Electrical Engineering student at Temple
 University located in Philadelphia, PA. I currently work for the [Neural 
 Engineering Data Consortium](https://www.nedcdata.org) as a development
@@ -24,18 +24,16 @@ the implementation of self-configuring mesh networks, construction of
 autonomous robots, data mining of QVC sales data, and the development of 
 static websites. 
 
-For more infomation about me be sure to visit [my blog page](/index) or 
+For more information about me be sure to visit [my blog page](/index) or 
 review my [resume](/resume).
 
 # The Blog
-The blog is a resource for me to archive my projects and show others
+The Blog is a resource for me to archive my projects and show others
 what I have accomplished. I hope people will find the information
 on it useful for solving their problems or to gain new insights in a area
 I cover.
 
-# Traveling
-<span class="fa fa-plane about-icon"></span>
-
+# <span class="fa fa-plane"></span> Traveling
 In my free time, I enjoy exploring new places and cultures. I have been to
 a number of countries including: Italy, Bahamas, Costa Rica, Dominican
 Republic, Canada, Croatia, France, Spain, Slovenia, Mexico. I've also

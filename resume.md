@@ -8,9 +8,9 @@ https://drive.google.com/file/d/0B0-6fYMnbaHmR0xSNU8tQm0tOUk/view?usp=sharing)
 {: .text-center}
 
 # Education
-<span class="fa fa-education about-icon"></span> 
+<span class="fa fa-graduation-cap"></span> 
 **Temple University**  
-(B.S. Electrical Engineering)  
+Bachelor of Science in Electrical Engineering (Spring 2016 Graduation) 
 *September 2012 - Present*
 
 ## Highlights:  
@@ -26,13 +26,13 @@ https://drive.google.com/file/d/0B0-6fYMnbaHmR0xSNU8tQm0tOUk/view?usp=sharing)
 - Control Systems
 - Microprocessors
 - Digital Circuit Design
-- EE Science (Circuit Analysis)
+- Electrical Engineering Science (Circuit Analysis)
 - Mechanical Systems
-- Classical Physics 1 & 2
-- Stochastics 
+- Classical Physics 2
+- Stochastic Processes
 
 # My Work Experience
-<span class="fa fa-briefcase about-icon"></span>
+<span class="fa fa-briefcase"></span>
 **Neural Engineering Data Consortium**  
 DEVOPS - DATA SCIENTIST - BUDGET COORDINATOR  
 *August 2014 - Present*
@@ -54,7 +54,7 @@ maximize available expenditure. I worked alongside Temple Engineering's
 business manager in keeping track of four different funds contributing 
 to our research. 
 
-<span class="fa fa-briefcase about-icon"></span>
+<span class="fa fa-briefcase"></span>
 **Analytical Graphics**  
 DATABASE DEVELOPMENT INTERN  
 *May 2010 - August 2012*
