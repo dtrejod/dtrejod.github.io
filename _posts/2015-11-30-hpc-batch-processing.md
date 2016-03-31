@@ -208,6 +208,7 @@ The blog referenced recommends using the following to deploy a HPC cluster.
 > ### My Preferred Software Stack
 > Just to summarize at the end: here is my own preferred stack, 
 > subject to change based on the needs of the particular situation.
+>
 > - Warewulf for provisioning
 > - Warewulf and Ansible for configuration management
 > - OpenMPI for MPI, or whatever your app works best with
@@ -353,12 +354,13 @@ more on higher amounts of RAM, faster cores, SSD IO performance, or a high
 bandwidth network backbone. 
 
 **Background (5 Nodes):**
+
 - 1x Main Node: Core i7 930 , 3GB RAM, 3 HDD (`sda1 /boot` 250GB, 
 `sdb1 /dsk1` 160GB, `sdc1 /dsk2` 250GB). The job is ran using data hosted 
 off a NFS hosted on this main node under the disk `sdc1`.
 - 4x Compute Nodes: 3x of the compute nodes (`n002-4`) are using Core 2 Duos 
 and one 4 core Xeon (`n001`). `n001` has 6GB RAM installed while `n002/3`
- have 4GB and `n004` has 2GB. 
+have 4GB and `n004` has 2GB. 
 
 The job ran on the cluster was `gen_feats.sh`. The job is, "is a small 
 experiment that runs on a single processor, and uses a very limited amount 
@@ -555,6 +557,7 @@ The full specs our machines are listed below. Note we have one main node,
 four compute nodes, and one web-server. 
 
 **Main Node (x1):**
+
 - 2x Intel Xeon E5-2623v3 (4C) @ 3.0GHz
 - 8x 8GB DDR4 @2133MHz (Total of 64GB)
 - 2x 480GB Kingston SSD (RAID1) (For Boot)
@@ -563,11 +566,13 @@ four compute nodes, and one web-server.
 - 24-Bay 4U Supermicro Chassis w/ 10GbE
 
 **Compute Node (x4):**
+
 - 2x AMD Opteron 6378 (16C) @ 2.4GHz
 - 16x DDR3 1866MHz (256GB/8GB per core)
 - 1x 480GB Kingston SSD
 
 **Webserver (x1):**
+
 - 1x Intel Xeon E5-2603 v3 (6C) @ 1.8GHz
 - 2x 8GB DDR4 @ 2133MHz (Total of 16GB)
 - 4x WDRE 3TB (RAID10) (6TB Usable)
@@ -604,7 +609,6 @@ glamor shots.
 ![Compute Nodes (NeuroNix)](/img/posts/hpc-batch-processing/neuronix-nedc-002-5-top.jpg "Compute Nodes (NeuroNix)")
 {: .text-center}
 
-**Top down view on compute nodes**
 By running the same tests we ran before, we can see how NeuroNix performs 
 compared to OwlsNest and our now retired NEDC test cluster. The job 
 starts as soon as I submit since our group has exclusive access to the 

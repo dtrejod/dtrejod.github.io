@@ -9,20 +9,18 @@ University located in Philadelphia, PA. I currently work for the [Neural
 Engineering Data Consortium](https://www.nedcdata.org) as a development
 operator (DevOps) engineer.
 
-### My History
-
-
-
 ### My Education
 
 **Temple University** (B.S. Electrical Engineering)  
 *September 2012 - Present*
 
 Highlights:  
+
 - Dean's List
 - IEEE's Honor Society | Eta Kappa Nu
 
 Classes:  
+
 - Engineering Principles of Computer Intrusion and Detection
 - Digital Communications
 - Digital Signal Processing
