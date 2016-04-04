@@ -2,9 +2,9 @@
 layout: post
 title: HPC Compute Cluster (Batch Processing Optimized)
 subtitle: The NeuroNix Super Computer
-bigimg: /img/posts/hpc-batch-processing/neuronix-signin.png
-published: true
 date: 2015-11-30
+published: true
+bigimg: /img/posts/hpc-batch-processing/neuronix-signin.png
 ---
 
 # Introduction
