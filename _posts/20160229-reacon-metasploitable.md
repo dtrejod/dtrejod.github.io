@@ -5,6 +5,8 @@ subtitle: ECE 5526 - Engineering Principles of Computer Intrusion and Detection
 categories: TempleU
 tags: [programming, software, linux, school, server, bash, security, python]
 bigimg: /img/posts/reacon-metasploitable/virtualmachine-env.png
+published: true
+date: 2016-02-29
 ---
 
 Today, we look more in depth into NMAP, a popular open-source security 
@@ -20,4 +22,4 @@ program to exploit the Simple Mail Transfer Protocol (SMTP) to gather a
 list of known users on a server. We have success in validity emails on our 
 Metasploitable virtual machine.
 
-[Click here for full report](https://onedrive.live.com/redir?resid=1BA75611F0C4F0D1!11567&authkey=!AJNaLjxZWqyKu6w&ithint=file%2cpdf)
+[Click here for full report](files.tdevin.com/blog/20160227_trejo_devin_002.pdf)

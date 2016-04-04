@@ -3,6 +3,8 @@ layout: post
 title: HPC Compute Cluster (Batch Processing Optimized)
 subtitle: The NeuroNix Super Computer
 bigimg: /img/posts/hpc-batch-processing/neuronix-signin.png
+published: true
+date: 2015-11-30
 ---
 
 # Introduction
@@ -23,7 +25,7 @@ I leaded the effort in trying to setup, optimize and maintain the cluster.
 In this blog I lay out the research, testing, and results of my quest.
 
 [Click here for a poster that summarizes the project.](
-https://drive.google.com/file/d/0B0-6fYMnbaHmb2pJck51OVZWVDA/view?usp=sharing)
+http://files.tdevin.com/blog/20151211_trejo_EEposter_v08.pdf)
 
 # Research
 Before we go further I researched the differences between 
@@ -480,7 +482,7 @@ period time.
 {: .text-center}
 
 As can be seen (although it is slightly cut off), the max read speed from 
-the drive was recorded at 8.X MB/s and the max write speed was 13.X MB/s. 
+the disk was recorded at 8.X MB/s and the max write speed was 13.X MB/s. 
 The network corresponds with tx at max 20.X MB/s and rx at max 15.X MB/s. 
 The average is much lower. In this test I do not believe the bottleneck 
 is caused by a limitation from the IO.
@@ -651,7 +653,7 @@ processing based. Also from our tests we saw we needed at least 3.5GB per
 core to run jobs successfully. Since our budget allowed we actually went 
 with 8GB per core across the nodes. The total core count is 128C with 1TB 
 of ram across all nodes. Lastly we added a SSD to each node so jobs can 
-copy over working files to the local drive in case we run into NFS IO 
+copy over working files to the local disk in case we run into NFS IO 
 bounded issues. All four compute nodes are housed in a compact 2U chassis. 
 
 The web-server is a simple six core processor with 6TB usable of local 

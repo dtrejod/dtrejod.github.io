@@ -4,7 +4,7 @@ title: Resume
 subtitle: On-line Resume
 ---
 [*Download Paper copy of My Resume*](
-https://drive.google.com/file/d/0B0-6fYMnbaHmR0xSNU8tQm0tOUk/view?usp=sharing)
+http://files.tdevin.com/resume/trejo_devin_resume.pdf)
 {: .text-center}
 
 # <span class="fa fa-graduation-cap"></span>  Education
