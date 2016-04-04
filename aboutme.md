@@ -4,7 +4,7 @@ title: About me
 subtitle: Electrical Engineering Student
 ---
 
-# <span class="fa fa-hand-peace-o"></span> Introduction
+# <span class="fa fa-info-circle"></span> Introduction
 My name is Devin Trejo. I'm an Electrical Engineering student at Temple
 University located in Philadelphia, PA. I currently work for the [Neural 
 Engineering Data Consortium](https://www.nedcdata.org) as a development
