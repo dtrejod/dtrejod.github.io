@@ -32,7 +32,7 @@ Bachelor of Science in Electrical Engineering
 - Stochastic Processes
 
 # <span class="fa fa-briefcase"></span> Work Experience
-** Susquehanna International Group, LLP**  
+**Susquehanna International Group, LLP**  
 UNIX PLATFORM DEVELOPER  
 *May 2016 - Present*
 
