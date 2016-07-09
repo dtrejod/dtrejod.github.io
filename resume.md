@@ -9,11 +9,12 @@ http://files.tdevin.com/resume/trejo_devin_resume.pdf)
 
 # <span class="fa fa-graduation-cap"></span>  Education
 **Temple University**  
-Bachelor of Science in Electrical Engineering (Spring 2016 Graduation)  
-*September 2012 - Present*
+Bachelor of Science in Electrical Engineering
+*September 2012 - 2016*
 
 ### Highlights:  
 
+- Graduated Magma Cumlaude
 - Dean's List
 - Eta Kappa Nu - IEEE's Honor Society
 
@@ -31,6 +32,12 @@ Bachelor of Science in Electrical Engineering (Spring 2016 Graduation)
 - Stochastic Processes
 
 # <span class="fa fa-briefcase"></span> Work Experience
+* Susquehanna International Group, LLP**
+PLATFORM DEVELOPER
+*May 2016 - Present*
+
+Coming soon.
+
 **Neural Engineering Data Consortium**  
 DEVOPS - DATA SCIENTIST - BUDGET COORDINATOR  
 *August 2014 - Present*
