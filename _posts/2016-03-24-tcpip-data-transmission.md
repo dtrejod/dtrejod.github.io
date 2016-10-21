@@ -4,7 +4,7 @@ title: TCP/IP Data Transmission
 subtitle: ECE 4532 - Data Communications
 categories: TempleU
 tags: [programming, c code, networking, microprocessor]
-bigimg: https://github.com/dtrejod/myece4532/raw/master/lab1/images/client_server_frame_analysis.png
+bigimg: /img/posts/4532_data_comm/client_server_frame_analysis.png
 ---
 
 # Summary
