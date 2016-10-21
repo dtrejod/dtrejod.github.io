@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TCP/IP Buffer Data Transmission
+title: TCP/IP Buffered Data Transmission
 subtitle: ECE 4532 - Data Communications
 categories: TempleU
 tags: [programming, c code, networking, microprocessor]
@@ -24,4 +24,4 @@ re-transmission behavior that is expected when using TCP as a transfer
 protocol, as discuss in the previous lab.
 
 [Click here for full report.](
-http://files.tdevin.com/blog/20160227_trejo_devin_002.pdf)
+http://files.tdevin.com/blog/20160222_trejo_devin_002.pdf)

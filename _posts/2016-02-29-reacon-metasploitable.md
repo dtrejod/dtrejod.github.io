@@ -20,4 +20,4 @@ program to exploit the Simple Mail Transfer Protocol (SMTP) to gather a
 list of known users on a server. We have success in validity emails on our 
 Metasploitable virtual machine.
 
-[Click here for full report](http://files.tdevin.com/blog/20160227_trejo_devin_002.pdf)
+[Click here for full report](http://files.tdevin.com/blog/20160229_trejo_devin_002.pdf)
