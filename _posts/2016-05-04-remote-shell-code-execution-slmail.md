@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remote Shell-Code Execution using the SLMail-5.5.0 Service
-subtitle: ECE 5526 - Engineering Principles Computer Intrusion and Detection
+subtitle: ECE 5526 - Engineering Principles of Computer Intrusion and Detection
 categories: TempleU
 tags: [networking, security, kali, exploit, programming, software, linux, school, server, bash, security, python]
 bigimg: /img/posts/5526_engineering_principles_computer_intrusion/nmap-scan-windows2k.png
