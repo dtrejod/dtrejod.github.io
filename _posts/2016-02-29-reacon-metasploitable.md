@@ -3,7 +3,7 @@ layout: post
 title: NMAP Network Footprint and A Recon on Metasploitable
 subtitle: ECE 5526 - Engineering Principles of Computer Intrusion and Detection
 categories: TempleU
-tags: [programming, software, linux, school, server, bash, security, python]
+tags: [programming, software, linux, school, server, bash, security, python, kali]
 bigimg: /img/posts/5526_engineering_principles_computer_intrusion/virtualmachine-env.png
 ---
 
