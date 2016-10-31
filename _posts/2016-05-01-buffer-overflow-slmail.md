@@ -4,7 +4,7 @@ title: Buffer Overflow SLMail-5.5.0 Service and Gain Root Shell
 subtitle: ECE 5526 - Engineering Principles of Computer Intrusion and Detection
 categories: TempleU
 tags: [networking, security, kali, programming, software, linux, school, server, bash, security, python]
-bigimg: /img/posts/5526_engineering_principles_computer_intrusion/bufferoverlow.png
+bigimg: /img/posts/5526_engineering_principles_computer_intrusion/bufferoverflow.png
 ---
 
 # Summary
