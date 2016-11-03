@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple Statistics
-subtitle: ECE 3522: Stochastic Processes in Signals and Systems
+subtitle: ECE 3522 - Stochastic Processes in Signals and Systems
 categories: TempleU
 tags: [random, mean, variance, statistics, speech, software, matlab, programming]
 bigimg: /img/posts/3522_stochastic_systems/raw_speech_and_google_stock.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Regression and Histograms
-subtitle: ECE 3522: Stochastic Processes in Signals and Systems
+subtitle: ECE 3522 Stochastic Processes in Signals and Systems
 categories: TempleU
 tags: [random, mean, linear regression, histogram, cdf, pdf, statistics, speech, software, matlab, programming]
 bigimg: /img/posts/3522_stochastic_systems/google_stock_regression.png
