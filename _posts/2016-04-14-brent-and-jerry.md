@@ -4,7 +4,6 @@ title: Student Video - Brent and Jerry
 subtitle: MSP 0821 - Future of Your TV
 categories: TempleU
 tags: [video, film, amateur]
-bigimg: https://img.youtube.com/vi/8n4O05JVMOg/0.jpg
 ---
 
 # Brent and Jerry
