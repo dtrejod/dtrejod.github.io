@@ -7,6 +7,9 @@ tags: [networking, mesh, routing, programming, software, linux, school, server, 
 bigimg: /img/posts/senior_design/toichat_cover.jpg
 ---
 
+# Project Links
+- [Full Design Document](
+http://files.tdevin.com/blog/20160416_sd27_broadband_hamnet_microwave_communication_system_final.pdf)
 - [Project Website](
 https://sites.google.com/a/temple.edu/broadband-mcomm/)
 - [Project Poster](
@@ -103,5 +106,5 @@ Microwave Communication System also has the ability to provide
 underprivileged areas with an inexpensive way to communicate with family
 and friends because the equipment is so inexpensive and accessible.
 
-[Click here for full design document.](
-http://files.tdevin.com/blog/20160416_sd27_broadband_hamnet_microwave_communication_system_final.pdf
+[Click here for Full Design Document](
+http://files.tdevin.com/blog/20160416_sd27_broadband_hamnet_microwave_communication_system_final.pdf)
