@@ -17,7 +17,7 @@ our assignment we will focus on analyzing five different cases. In each case we
 will only change our sigma2 parameter. The parameters we analyze our laid out
 below:
 
-`Class 1: μ1=[1; 1] ; C1=[1 0;0 1]
+`Class 1: μ1=[1; 1] ; C1=[1 0;0 1]`
 `Class 2: μ2=[−1; −1] ;C2=[sigma2 0.5; 0.5 sigma2] sigma2→0.25,0.5,1.0,2.0,4.0`
 
 As can be seen our first class parameter does not change. It is a Gaussian
