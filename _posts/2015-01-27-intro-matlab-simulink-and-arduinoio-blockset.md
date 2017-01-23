@@ -33,7 +33,7 @@ In order to begin the experiment we had to identify what port the Arduino was
 using to communicate. Knowing the port is necessary to open communications
 between the Arduino and MatLab. First we programed the Arduino to act as an ADC
 by loading sketches to the board. Once the Arduino is setup and the port is
-known we can execute the command 𝑎 = 𝑎𝑟𝑑𝑢𝑖𝑛𝑜(’/𝑑𝑒𝑣/ 𝑡𝑡𝑦𝑆101’); to begin
+known we can execute the command `𝑎 = 𝑎𝑟𝑑𝑢𝑖𝑛𝑜(’/𝑑𝑒𝑣/ 𝑡𝑡𝑦𝑆101’);` to begin
 communication.
 
 Now that we have communication between MatLab and the board, we begin some
