@@ -34,7 +34,7 @@ Bachelor of Science in Electrical Engineering
 
 # <span class="fa fa-briefcase"></span> Work Experience
 **Susquehanna International Group, LLP**
-LUNIX PLATFORM DEVELOPER
+LINUX PLATFORM DEVELOPER
 *May 2016 - Present*
 - Automated the workflow of using SAN snapshots to duplicate and backup Oracle
   databases. Orchestrated by using custom Ansible modules and the VMware Python
@@ -44,7 +44,7 @@ LUNIX PLATFORM DEVELOPER
 - Contributed to the development of low latency network benchmarks using Remote
   Direct Memory Access.
 - Benchmarked experimental computer hardware including new CPUs architectures,
-  L1/ L2 replication devices/switches, and various storage solutions.
+  L1/L2 replication devices/switches, and various storage solutions.
 - Provided tier 3 support for operations concerning Linux Systems.
 
 **Neural Engineering Data Consortium**
