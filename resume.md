@@ -2,6 +2,7 @@
 layout: page
 title: Resume
 subtitle: On-line Resume
+redirect_from: "/contact"
 ---
 [*Download Paper copy of My Resume*](
 http://files.tdevin.com/resume/trejo_devin_resume.pdf)

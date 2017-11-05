@@ -61,7 +61,7 @@ author:
   #facebook: yourname  # eg. daattali
   github: dtrejod    # eg. daattali
   #twitter: yourname   # eg. daattali
-  linkedin: in/devintrejo  # eg. "pub/dean-attali/8/946/143"
+  linkedin: devintrejo  # eg. "pub/dean-attali/8/946/143"
   #stackoverflow: yourlink  # eg. "3943160/daattali"
   #reddit: yourname    # eg. daattali
   #google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
@@ -161,7 +161,7 @@ defaults:
       show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
-link-tags: true
+link-tags: false
 
 # Exclude these files from production site
 exclude:
@@ -227,6 +227,7 @@ prose:
 
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
