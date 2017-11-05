@@ -43,7 +43,7 @@ LUNIX PLATFORM DEVELOPER
 - Contributed to the development of low latency network benchmarks using Remote
   Direct Memory Access.
 - Benchmarked experimental computer hardware including new CPUs architectures,
-  L1/ L2 replication/switches devices, and various storage solutions.
+  L1/ L2 replication devices/switches, and various storage solutions.
 - Provided tier 3 support for operations concerning Linux Systems.
 
 **Neural Engineering Data Consortium**
