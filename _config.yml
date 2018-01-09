@@ -28,6 +28,7 @@ navbar-links:
     - NeuroNix HPC: "2015-11-30-hpc-batch-processing"
     - Mesh Networking: "2016-04-16-broadband-hamnet-microwave-communication-system"
     - Maximum Likelihood Decoding: "2015-04-26-maximum-likelihood-decoding"
+    - Gender Classification: "2015-12-18-gender-recognition-using-power-spectral-density"
   About Me: "aboutme"
   Resume: "resume"
 

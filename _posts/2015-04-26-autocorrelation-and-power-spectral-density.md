@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Autocrrelation and Power Spectral Density
+title: Autocorrelation and Power Spectral Density
 subtitle: ECE 3522 - Stochastic Processes in Signals and Systems
 categories: TempleU
 tags: [random, autocorrelation, power spectral density, gaussian, noise, psd, pdf, distribution, statistics, software, matlab, programming]
