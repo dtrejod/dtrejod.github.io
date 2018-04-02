@@ -15,7 +15,7 @@ Bachelor of Science in Electrical Engineering
 
 ### Highlights:
 
-- Graduated Magma Cumlaude
+- Graduated Magna Cum Laude
 - Dean's List
 - Eta Kappa Nu - IEEE's Honor Society
 
@@ -31,25 +31,25 @@ Bachelor of Science in Electrical Engineering
 - Mechanical Systems
 - Classical Physics 2
 - Stochastic Processes
+- Programming C
 
 # <span class="fa fa-briefcase"></span> Work Experience
 **Susquehanna International Group, LLP**
 LINUX PLATFORM DEVELOPER
 *May 2016 - Present*
-- Automated the workflow of using SAN snapshots to duplicate and backup Oracle
-  databases. Orchestrated by using custom Ansible modules and the VMware Python
-  API.
-- Designed and developed a NFS/CIFS Filer Auditing System using inline network
-  replication feeding into a Bro IDS (Network Security Monitoring Software).
-- Contributed to the development of low latency network benchmarks using Remote
-  Direct Memory Access.
-- Benchmarked experimental computer hardware including new CPUs architectures,
-  L1/L2 replication devices/switches, and various storage solutions.
-- Provided tier 3 support for operations concerning Linux Systems.
-
+- Developed a realtime NFS/SMB filer auditing system by tapping traffic from a
+  storage core switch and feeding the data into intrusion detection software
+  (Bro).
+- Automated the workflow of taking SAN snapshots to duplicate and backup Oracle
+  databases. Orchestrated using Ansible, VMware, and PURE Python APIs.
+- Contributed to the development of low latency network benchmarks utilizing
+  RDMA to test new CPUs architectures, L1/L2 replication switches, and NVMe
+  storage solutions.
+- Provided tier 3 support for high frequency trading Linux
+  systems.
 **Neural Engineering Data Consortium**
-SYS ADMIN - DATA SCIENTIST - BUDGET COORDINATOR
-*August 2014 - Present*
+SYSTEM ADMIN - DATA SCIENTIST - BUDGET COORDINATOR
+*August 2014 - May 2016*
 
 Summer 2015 I was brought to head the development of the NEDC computer
 cluster. This $30k HPC purchase was configured to best suit our research
