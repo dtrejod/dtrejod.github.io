@@ -47,6 +47,7 @@ LINUX PLATFORM DEVELOPER
   storage solutions.
 - Provided tier 3 support for high frequency trading Linux
   systems.
+
 **Neural Engineering Data Consortium**
 SYSTEM ADMIN - DATA SCIENTIST - BUDGET COORDINATOR
 *August 2014 - May 2016*
