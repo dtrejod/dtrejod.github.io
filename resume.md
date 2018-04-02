@@ -49,7 +49,7 @@ LINUX PLATFORM DEVELOPER
   systems.
 
 **Neural Engineering Data Consortium**
-SYSTEM ADMIN - DATA SCIENTIST - BUDGET COORDINATOR
+SYSTEM ADMIN - DATA ENTRY - BUDGET COORDINATOR
 *August 2014 - May 2016*
 
 Summer 2015 I was brought to head the development of the NEDC computer
